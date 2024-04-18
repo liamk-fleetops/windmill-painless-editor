@@ -29,6 +29,7 @@
  */
 
 import * as monaco from 'monaco-editor';
+import regeneratorRuntime from "regenerator-runtime";
 export const ID = 'painless';
 
 /**
