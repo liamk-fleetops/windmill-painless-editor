@@ -39,7 +39,7 @@ function Component({
     <>
       {}
 
-      <h1>Windmill Custom Component</h1>
+      <h1>Painless Editor</h1>
       <div>
         State: <pre>{JSON.stringify(state)}</pre>
       </div>
