@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Component from "./component/Component.tsx";
-// import Component from "./component/MinimalComponent.tsx";
 
 import { type WindmillProps } from "./global";
 

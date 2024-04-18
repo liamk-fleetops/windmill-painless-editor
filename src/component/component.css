@@ -69,3 +69,24 @@
 .__COMPONENT_NAME__ .card {
   padding: 2em;
 }
+
+.error_glyph:before {
+	content: "⚠";
+	color:red;
+	font-size:18px;
+	width:18px;
+	height:18px;
+	position:relative;
+	left:20px;
+}
+.error_highlight {
+	/* Make sure to use transparent colors for the selection to work */
+	background: rgba(255, 30, 0, 0.1);
+	border-bottom: red 1px solid;
+}
+.Editor {
+	width: 800px;
+	height: 600px;
+	border: 1px solid #ccc;
+	border-color: red;
+}
